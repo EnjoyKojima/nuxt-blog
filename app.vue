@@ -3,20 +3,7 @@
 
 <template>
   <div>
-    <header class="bg-gray-800 text-white">
-      <h1>
-        <a href="/">
-          Kojima
-        </a>
-      </h1>
-      <nav>
-        <ul>
-          <li><a href="/">ホーム</a></li>
-          <li><a href="/about">アバウト</a></li>
-          <li><a href="/contact">コンタクト</a></li>
-        </ul>
-      </nav>
-    </header>
+    <TheHeader />
     <main>
       <section>
         <h2>最新の記事</h2>
@@ -33,8 +20,6 @@
         <Button>ボタン</Button>
       </section>
     </main>
-    <footer>
-        <p>&copy; 2023 私のウェブサイト</p>
-    </footer>
+    <TheFooter />
   </div>
 </template>
