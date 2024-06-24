@@ -41,7 +41,6 @@
       "allowComments": true,
       "allowTrailingCommas": true
     },
-
     "formatter": {
       "enabled": true,
       "indentStyle": "space",
