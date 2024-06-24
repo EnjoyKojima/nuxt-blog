@@ -3,7 +3,7 @@
 
 <template>
   <div>
-    <header>
+    <header class="bg-gray-800 text-white">
       <h1>
         <a href="/">
           Kojima
