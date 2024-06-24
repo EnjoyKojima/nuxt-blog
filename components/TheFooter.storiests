@@ -1,0 +1,6 @@
+import TheFooter from './TheFooter.vue'
+
+export default {
+    title: 'TheFooter',
+    components: { TheFooter },
+}

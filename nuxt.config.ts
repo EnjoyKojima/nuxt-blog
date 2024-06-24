@@ -5,7 +5,13 @@ export default defineNuxtConfig({
     // prerender index route by default
     '/': { prerender: true }
   },
-  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', '@nuxtjs/storybook', 'shadcn-nuxt'],
+  modules: [
+    '@nuxt/content',
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/storybook',
+    'shadcn-nuxt',
+    "@nuxt/image"
+  ],
   content: {
     // ... options
   },
