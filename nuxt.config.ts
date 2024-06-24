@@ -5,4 +5,10 @@ export default defineNuxtConfig({
     // prerender index route by default
     '/': { prerender: true },
   },
+  modules: [
+    '@nuxt/content'
+  ],
+  content: {
+    // ... options
+  }
 });
