@@ -3,7 +3,7 @@
 
 <template>
   <div>
-    <header>
+    <header class="bg-gray-800 text-white">
       <h1>
         <a href="/">
           Kojima
@@ -30,6 +30,7 @@
           <p>この記事の概要...</p>
           <a href="/post/2">続きを読む</a>
         </article>
+        <Button>ボタン</Button>
       </section>
     </main>
     <footer>
