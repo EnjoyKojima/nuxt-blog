@@ -3,12 +3,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   routeRules: {
     // prerender index route by default
-    '/': { prerender: true },
+    '/': { prerender: true }
   },
-  modules: [
-    '@nuxt/content'
-  ],
+  modules: ['@nuxt/content'],
   content: {
     // ... options
   }
-});
+})
