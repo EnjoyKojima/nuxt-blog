@@ -1,12 +1,35 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-
-const count = ref(0)
 </script>
 
 <template>
   <div>
-    <h1>{{ count }}</h1>
-    <button @click="count++">Increment</button>
+  <header>
+    <h1>私のウェブサイトへようこそ</h1>
+    <nav>
+      <ul>
+        <li><a href="/">ホーム</a></li>
+        <li><a href="/about">アバウト</a></li>
+        <li><a href="/contact">コンタクト</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>最新の記事</h2>
+      <article>
+        <h3>記事タイトル1</h3>
+        <p>この記事の概要...</p>
+        <a href="/post/1">続きを読む</a>
+      </article>
+      <article>
+        <h3>記事タイトル2</h3>
+        <p>この記事の概要...</p>
+        <a href="/post/2">続きを読む</a>
+      </article>
+    </section>
+  </main>
+  <footer>
+      <p>&copy; 2023 私のウェブサイト</p>
+    </footer>
   </div>
 </template>
