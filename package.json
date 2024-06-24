@@ -6,7 +6,9 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "storybook": "storybook dev --port 6006",
+    "build-storybook": "storybook build"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.2",
@@ -14,10 +16,22 @@
     "@nuxt/devtools": "^1.0.3",
     "@nuxtjs/tailwindcss": "^6.12.0",
     "nuxt": "^3.8.2",
+    "nuxt-storybook": "^0.0.0",
     "shadcn-nuxt": "^0.10.4",
     "typescript": "^5.5.2",
     "vue": "^3.3.8",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.2.5",
+    "storybook": "8.0.8",
+    "@types/node": "^18.17.5",
+    "@storybook/vue3": "8.0.8",
+    "@storybook-vue/nuxt": "0.2.6",
+    "@nuxtjs/storybook": "7.0.2",
+    "@storybook/addon-links": "8.0.8",
+    "@storybook/builder-vite": "8.0.8",
+    "@storybook/addon-essentials": "8.0.8",
+    "@storybook/addon-interactions": "8.0.8",
+    "@storybook/test": "8.0.8",
+    "@storybook/blocks": "8.0.8"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.0",

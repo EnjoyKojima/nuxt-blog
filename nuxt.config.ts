@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     // prerender index route by default
     '/': { prerender: true }
   },
-  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', "shadcn-nuxt"],
+  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', '@nuxtjs/storybook', 'shadcn-nuxt'],
   content: {
     // ... options
   },
@@ -19,5 +19,9 @@ export default defineNuxtConfig({
      * @default "./components/ui"
      */
     componentDir: './components/ui'
+  },
+  storybook: {
+    host: 'http://localhost',
+    port: 6006
   }
 })
